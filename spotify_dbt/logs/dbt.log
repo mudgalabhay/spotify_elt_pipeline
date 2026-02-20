@@ -1,0 +1,29 @@
+[0m12:23:40.273109 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A1E4CAE00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A2073F490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A2073D6F0>]}
+
+
+============================== 12:23:40.273109 | 817c498b-d3d6-482b-a1d3-dac0b029f5f5 ==============================
+[0m12:23:40.273109 [info ] [MainThread]: Running with dbt=1.10.3
+[0m12:23:40.273109 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\mudga\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:23:53.263901 [debug] [MainThread]: Starter project path: C:\Users\mudga\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m12:23:53.346012 [info ] [MainThread]: 
+Your new dbt project "spotify_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:23:53.347376 [info ] [MainThread]: Setting up your profile.
+[0m12:27:45.971958 [info ] [MainThread]: Profile spotify_dbt written to C:\Users\mudga\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:27:45.975503 [debug] [MainThread]: Command `dbt init` succeeded at 12:27:45.975503 after 245.84 seconds
+[0m12:27:45.976615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A1E4CAE00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A2073E290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A1C94F8E0>]}
+[0m12:27:45.977630 [debug] [MainThread]: Flushing usage events
+[0m12:27:47.075526 [debug] [MainThread]: An error was encountered while trying to flush usage events
